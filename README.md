@@ -71,4 +71,5 @@ If you want to test the current state of the website, follow these steps:
 
   ℹ️ The project is currently in alpha, reported bugs will be fixed
 
-If you have questions or encounter issues, please use the Issues section
+If you have questions or encounter issues, please use the Issues section.
+This post is supporting the [Gymnasium Veitshöchheim](www.google.com), I do not get paid for this, I just like the school :D!
