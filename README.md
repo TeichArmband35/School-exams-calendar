@@ -49,7 +49,7 @@ This **calendar uses** a **Node.js localhost server** and a **MySQL database**
 ## 🚦 Testing the Website:
 If you want to test the current state of the website, follow these steps:
 
-ℹ️ Node.js and required modules are included in this repository
+ℹ️ Node.js and required modules must be downloaded
 
 1. Download the repository
 2. Configure index.js inside the Server folder
