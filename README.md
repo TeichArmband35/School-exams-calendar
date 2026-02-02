@@ -68,6 +68,7 @@ If you want to test the current state of the website, follow these steps:
 - This project is still in development
 - Since I am German, the website language is German
 - Bugs in the frontend or Node.js backend are expected
+
   ℹ️ The project is currently in alpha, reported bugs will be fixed
 
 If you have questions or encounter issues, please use the Issues section
