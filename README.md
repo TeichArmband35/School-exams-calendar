@@ -72,4 +72,4 @@ If you want to test the current state of the website, follow these steps:
   ℹ️ The project is currently in alpha, reported bugs will be fixed
 
 If you have questions or encounter issues, please use the Issues section.
-This post is supporting the [Gymnasium Veitshöchheim](www.google.com), I do not get paid for this, I just like the school :D!
+###### This post is supporting the [Gymnasium Veitshöchheim](https://github.com/TeichArmband35/School-exams-calendar/blob/main/Logos/Logo_Gymnasium.png), I do not get paid for this, I just like the school :D!
