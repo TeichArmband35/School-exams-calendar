@@ -59,7 +59,9 @@ If you want to test the current state of the website, follow these steps:
 `node "C:\Users\...\SchoolExamsCalendar\Nodejs-Server\index.js"`
 
 ℹ️ If you’re unsure about the file path, copy it and paste it after node
+
 4. Open index.html or HOMEPAGE.html in your browser
+
 🎉 The application should now be running!
 
 ## ⚠️ Important Notes:
