@@ -55,6 +55,7 @@ If you want to test the current state of the website, follow these steps:
 2. Configure index.js inside the Server folder
    - Enter your MySQL credentials (username, password, database, table)
 3. Start the Node.js server using the following command in CMD:
+
 `node "C:\Users\...\SchoolExamsCalendar\Nodejs-Server\index.js"`
 
 ℹ️ If you’re unsure about the file path, copy it and paste it after node
