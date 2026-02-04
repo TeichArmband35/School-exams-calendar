@@ -1,0 +1,126 @@
+<link rel="stylesheet" href="CSS/index.css" />
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anmelden</title>
+  </head>
+</html>
+<header>
+  <h1>Schulaufgaben Kalender</h1>
+</header>
+
+<div class="Kontainer1" id="Kont1">
+  <div class="Kontainer2" id="Kont3">
+    <img
+      src="PNGs/exitICONgrey.png"
+      alt="exitICON"
+      class="input7"
+      id="exitICON2"
+    />
+    <div class="Kontainer3" id="Kont4">
+      <h1 class="ueberschrift3">Mitteilungen</h1>
+      <div class="Kontainer4" id="Kont5">
+        <h1 class="ueberschrift4" id="Mitteilung1">
+          [Uhrzeit] [Meldung] [Warnstufe]
+        </h1>
+        <h1 class="ueberschrift4" id="Mitteilung2">
+          [Uhrzeit] [Meldung] [Warnstufe]
+        </h1>
+      </div>
+    </div>
+  </div>
+
+  <div id="Kont2">
+    <div>
+      <img
+        src="PNGs/infoICONgrey.png"
+        alt="infoICON"
+        class="input6"
+        id="infoICON"
+      />
+    </div>
+
+    <h1 class="ueberschrift1">Anmelden</h1>
+    <form class="input2">
+      <label for="fname" class="input2">Benutzername:</label> <br />
+      <input
+        type="text"
+        id="fname"
+        name="fname"
+        class="inputFelder"
+        required
+      /><br class="input2" />
+      <label for="lname" class="input2">Passwort:</label> <br />
+      <input
+        type="password"
+        id="passwort"
+        name="passwort"
+        class="inputFelder"
+        required
+      />
+      <br />
+      <label for="kname" class="input2">Klassenkürzel:</label> <br />
+      <input
+        type="text"
+        id="kuerzel"
+        name="kname"
+        class="inputFelder"
+        required
+      />
+      <br />
+      <input
+        type="button"
+        value="Anmelden"
+        class="input3"
+        id="submit1"
+        onclick="check3()"
+      />
+      <input
+        type="button"
+        value="Registrieren"
+        class="input4"
+        id="submit2"
+        onclick="window.location.href = 'accounterstellen.html'"
+      />
+    </form>
+    <br />
+  </div>
+</div>
+
+<div class="alert" id="ErrorAlert">
+  <img
+    src="PNGs/warningsign2.png"
+    alt="warnung"
+    width="25px"
+    height="25px"
+    class="inline"
+  />
+  <h3 id="alertError" class="inline">ERROR: [ErrorCode], [Grund]</h3>
+</div>
+
+<div id="myProgress">
+  <div id="myBar"></div>
+</div>
+
+<audio id="errorAudio">
+  <source src="ErrorAudios/error.mp3" type="audio/ogg" />
+  <source src="ErrorAudios/error.mp3" type="audio/mpeg" />
+  Ihr Browser unterstützt das Audio-Element nicht.
+</audio>
+
+<audio id="succsessAudio">
+  <source src="ErrorAudios/succsess.ogg" type="audio/ogg" />
+  <source src="ErrorAudios/succsess.mp3" type="audio/mpeg" />
+  Ihr Browser unterstützt das Audio-Element nicht.
+</audio>
+
+<audio id="warningAudio">
+  <source src="ErrorAudios/warning.ogg" type="audio/ogg" />
+  <source src="ErrorAudios/warning.mp3" type="audio/mpeg" />
+  Ihr Browser unterstützt das Audio-Element nicht.
+</audio>
+
+<script src="JS/anmelden.js"></script>
